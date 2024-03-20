@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Audrey | </title>
+
+    <style>
+        body{
+            background-color: rgb(221, 221, 240);
+        }
+        h1{
+            color: rgb(80, 156, 3);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <br>
+    <h1> Curso de JavaScript  </h1> 
+    <br>
+    <p> Parágrafo do texto</p>
+   
+   
+
+   
+
+
+
+
+   <script>
+    // ALERTAS: 
+    // window.alert('Minha primeira msg')
+
+    // CONFIRMAÇÃO:
+    // window.confirm('Está gostando de JS?')
+
+    // ENTRADA DE DADOS:
+    // var nome = window.prompt('Qual é seu nome?')
+    // window.alert('Seja bem vindo(a) ' + nome + '!!!')
+
+    // var nome = window.prompt('Qual é seu nome?')
+    // document.writeln(`Olá ${nome.toUpperCase()}, seu nome tem ${nome.length} letras`)
+
+
+    // VARIAVEIS NUMERICAS Number.parseInt()  Number.parseFloat()   Number()
+    
+    // Prompt recebe String
+    var n1 = Number(window.prompt("Digite o primeiro número: ")) 
+    var n2 = Number(window.prompt("Digite o segundo número: "))
+    var n3 = n1 + n2
+    
+    // Com concatenação
+    //window.alert("A soma dos valores é: " + n3) 
+
+    // Com format
+    // window.alert(`Soma dos números é: ${n3.toFixed(2).replace('.',',')}`) 
+    
+    // toLocaleString
+    //n3.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    //n3.toLocaleString('en-USA', {style: 'currency', currency: 'USD'})
+    //n3.toLocaleString('en-USA', {style: 'currency', currency: 'EUR'})
+
+    window.alert(`Soma dos números é: ${n3.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+
+
+    // Conversão para String:   String()   ou    .toString
+
+    
+
+    
+
+
+
+   </script>
+</body>
+
+</html>
